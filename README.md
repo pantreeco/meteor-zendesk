@@ -20,7 +20,7 @@ Configure your settings.json:
 {
 	"private": {
 		"zendesk": {
-			"username": "<Your Zendesk username>"
+			"username": "<Your Zendesk username>",
 			"token": "<Your Zendesk token>",
 			"remoteUri": "https://<yourRemoteZendesk>.zendesk.com/api/v2"
 		}

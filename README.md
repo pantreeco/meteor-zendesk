@@ -59,7 +59,7 @@ var createTicketRequest = {
 	}
 };
 
-zendesk.tickets.create(createTicketRequest, function(err, req, res) {
+Zendesk().tickets.create(createTicketRequest, function(err, req, res) {
 	if (err) {
 		console.error('Zendesk error: ', err);
 		return
